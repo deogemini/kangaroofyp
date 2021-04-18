@@ -1,0 +1,92 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#EEABCF"
+    tools:context=".Feedback">
+
+    <View
+        android:id="@+id/view4"
+        android:layout_width="351dp"
+        android:layout_height="311dp"
+        android:background="#B1A5AB"
+        tools:layout_editor_absoluteX="-3dp"
+        tools:layout_editor_absoluteY="7dp" />
+
+    <View
+        android:id="@+id/view5"
+        android:layout_width="357dp"
+        android:layout_height="272dp"
+        android:background="#92B2E3"
+        tools:layout_editor_absoluteX="288dp"
+        tools:layout_editor_absoluteY="103dp" />
+
+    <TextView
+        android:id="@+id/textView9"
+        android:layout_width="262dp"
+        android:layout_height="131dp"
+        android:fontFamily="@font/allan_bold"
+        android:text="Feedback"
+        android:textSize="70sp"
+        tools:layout_editor_absoluteX="26dp"
+        tools:layout_editor_absoluteY="103dp" />
+
+    <ImageView
+        android:id="@+id/imageView2"
+        android:layout_width="150dp"
+        android:layout_height="146dp"
+        app:srcCompat="@drawable/ic_feedback"
+        tools:layout_editor_absoluteX="397dp"
+        tools:layout_editor_absoluteY="152dp" />
+
+    <TextView
+        android:id="@+id/textView13"
+        android:layout_width="217dp"
+        android:layout_height="99dp"
+        android:fontFamily="@font/allan_bold"
+        android:text="Comment"
+        android:textSize="60sp"
+        tools:layout_editor_absoluteX="26dp"
+        tools:layout_editor_absoluteY="555dp" />
+
+    <com.google.android.material.textfield.TextInputLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        tools:layout_editor_absoluteX="273dp"
+        tools:layout_editor_absoluteY="986dp">
+
+    </com.google.android.material.textfield.TextInputLayout>
+
+    <com.google.android.material.textfield.TextInputEditText
+        android:layout_width="540dp"
+        android:layout_height="447dp"
+        android:background="#FFFFFF"
+        android:hint="Enter text"
+        android:textSize="60sp"
+        android:visibility="visible"
+        tools:layout_editor_absoluteX="58dp"
+        tools:layout_editor_absoluteY="672dp" />
+
+    <Button
+        android:id="@+id/button3"
+        android:layout_width="184dp"
+        android:layout_height="91dp"
+        android:fontFamily="@font/allan_bold"
+        android:text="SUBMIT"
+        android:textSize="40sp"
+        app:backgroundTint="#23BE2E"
+        tools:layout_editor_absoluteX="492dp"
+        tools:layout_editor_absoluteY="1150dp" />
+
+    <ImageButton
+        android:id="@+id/imageButton"
+        android:layout_width="193dp"
+        android:layout_height="130dp"
+        android:background="#EEABCF"
+        app:srcCompat="@drawable/ic_back"
+        tools:layout_editor_absoluteX="82dp"
+        tools:layout_editor_absoluteY="1133dp" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>

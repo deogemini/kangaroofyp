@@ -1,0 +1,122 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#92B2E3"
+    tools:context=".Home">
+
+    <TextView
+        android:id="@+id/textView2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:fontFamily="@font/allan_bold"
+        android:text="MyHealth"
+        android:textSize="60sp"
+        tools:layout_editor_absoluteX="99dp"
+        tools:layout_editor_absoluteY="26dp" />
+
+    <View
+        android:id="@+id/view"
+        android:layout_width="404dp"
+        android:layout_height="235dp"
+        android:background="#EEABCF"
+        tools:layout_editor_absoluteX="3dp"
+        tools:layout_editor_absoluteY="102dp" />
+
+    <View
+        android:id="@+id/view2"
+        android:layout_width="410dp"
+        android:layout_height="392dp"
+        android:background="#FFFFFF"
+        tools:layout_editor_absoluteX="-3dp"
+        tools:layout_editor_absoluteY="337dp" />
+
+    <TextView
+        android:id="@+id/textView4"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:fontFamily="@font/allan_bold"
+        android:text="Week"
+        android:textSize="50sp"
+        tools:layout_editor_absoluteX="68dp"
+        tools:layout_editor_absoluteY="139dp" />
+
+    <TextView
+        android:id="@+id/textView8"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:fontFamily="@font/allan_bold"
+        android:text="Countdown"
+        android:textSize="50sp"
+        tools:layout_editor_absoluteX="158dp"
+        tools:layout_editor_absoluteY="231dp" />
+
+    <ImageButton
+        android:id="@+id/imageButton3"
+        android:layout_width="104dp"
+        android:layout_height="107dp"
+        android:background="#FFFFFF"
+        app:srcCompat="@drawable/ic_appointment"
+        tools:layout_editor_absoluteX="240dp"
+        tools:layout_editor_absoluteY="363dp" />
+
+    <ImageButton
+        android:id="@+id/imageButton5"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:background="#FFFFFF"
+        app:srcCompat="@drawable/ic_mail"
+        tools:layout_editor_absoluteX="34dp"
+        tools:layout_editor_absoluteY="363dp" />
+
+    <ImageButton
+        android:id="@+id/imageButton7"
+        android:layout_width="102dp"
+        android:layout_height="120dp"
+        android:background="#FFFFFF"
+        app:srcCompat="@drawable/ic_feedback"
+        tools:layout_editor_absoluteX="154dp"
+        tools:layout_editor_absoluteY="560dp" />
+
+    <TextView
+        android:id="@+id/textView10"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:fontFamily="@font/allan_bold"
+        android:text="Inbox"
+        android:textSize="40sp"
+        tools:layout_editor_absoluteX="48dp"
+        tools:layout_editor_absoluteY="463dp" />
+
+    <TextView
+        android:id="@+id/textView11"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:fontFamily="@font/allan_bold"
+        android:text="Appointment"
+        android:textSize="40sp"
+        tools:layout_editor_absoluteX="207dp"
+        tools:layout_editor_absoluteY="470dp" />
+
+    <TextView
+        android:id="@+id/textView12"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:fontFamily="@font/allan_bold"
+        android:text="Feedback"
+        android:textSize="40sp"
+        tools:layout_editor_absoluteX="144dp"
+        tools:layout_editor_absoluteY="670dp" />
+
+    <ImageButton
+        android:id="@+id/imageButton10"
+        android:layout_width="47dp"
+        android:layout_height="72dp"
+        android:background="#92B2E3"
+        app:srcCompat="@drawable/ic_back"
+        tools:layout_editor_absoluteX="30dp"
+        tools:layout_editor_absoluteY="16dp" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>
